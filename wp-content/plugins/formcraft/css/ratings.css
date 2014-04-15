@@ -1,0 +1,320 @@
+a:hover, a:active { outline: none; }
+.radios     
+{
+	color: #111;
+}
+.radio 
+{
+	float: left;
+}
+.has-js .label_smiley input,
+.has-js .label_stars input,
+.has-js .label_tick input,
+.has-js .label_thumb input
+  {
+	margin: 0;
+	position: absolute;
+	left: -9999px;
+	
+}
+
+.has-js .label_smiley,
+.has-js .label_stars,
+.has-js .label_tick,
+.has-js .label_thumb
+    {
+	font-size: 13px;
+	color: #444;
+	margin: 0px 0px;
+	padding-left: 38px;
+	cursor: pointer;
+	display:inline-block;
+	height: 34px;
+	line-height: 34px;
+	vertical-align: middle;
+}
+.has-js .label_smiley   {
+	padding-left: 38px;
+	height: 35px;
+	line-height: 35px;
+}
+.has-js .label_thumb   {
+	padding-left: 63px;
+	height: 63px;
+	line-height: 63px;
+}
+.has-js .label_tick   {
+	padding-left: 0px;
+	height: 35px;
+	line-height: 35px;
+	width: 30px;
+}
+
+.has-js .label_smiley,
+.has-js .label_stars
+{
+	transition: transform .2s ease;
+	-webkit-transition: -webkit-transform .2s ease;
+}
+.has-js .label_smiley:hover
+{
+	transform: scale(1.06);
+	-webkit-transform: scale(1.06);
+}
+
+.has-js .label_stars:hover
+{
+	transform: scale(1.15);
+	-webkit-transform: scale(1.15);
+}
+
+
+
+
+/* FOR MATRIX TICK */
+
+.has-js .label_tick    {
+	background: url(../images/check.png) no-repeat;
+}
+@media 
+(-webkit-min-device-pixel-ratio: 1.3), 
+(min-resolution: 124.8dpi){ 
+.has-js .label_tick    {
+	background: url(../images/check_2.png) no-repeat;
+	background-size: 30px 272px;
+}
+}
+
+.has-js .label_tick    {
+	background-position: 0px 0px;
+}
+.has-js .label_tick:hover    {
+	background-position: 0px -34px;
+}
+.has-js .label_tick.r_on    {
+	background-position: 0px -68px;
+}
+.has-js .label_tick.r_on:hover    {
+	background-position: 0px -102px;
+}
+
+
+
+/* FOR MATRIX CIRCLED TICK */
+
+.has-js .circled .label_tick    {
+	background-position: 0px -136px;
+}
+.has-js .circled .label_tick:hover    {
+	background-position: 0px -170px;
+}
+.has-js .circled .label_tick.r_on    {
+	background-position: 0px -204px;
+}
+.has-js .circled .label_tick.r_on:hover    {
+	background-position: 0px -238px;
+}
+
+
+
+/* FOR THUMBS RATING */
+
+.has-js .label_thumb    {
+	background: url(../images/thumbs.png) no-repeat;
+	background-position: 0px 0px;
+	background-size: 54px 252px;
+	margin-bottom: 5px;
+}
+
+@media 
+(-webkit-min-device-pixel-ratio: 1.3), 
+(min-resolution: 124.8dpi){ 
+.has-js .label_thumb    {
+	background: url(../images/thumbs_2.png) no-repeat;
+	background-position: 0px 5px;
+	background-size: 54px 252px;
+}
+}
+
+.has-js .label_thumb.thumb0    {
+	background-position: 0px 5px;
+	opacity: .9;
+	background-size: 54px 252px;
+	transition: transform .2s ease;
+	-webkit-transition: -webkit-transform .2s ease;
+}
+.has-js .label_thumb.thumb0:hover    {
+	background-position: 0px -121px;
+	opacity: .9;
+	transform: scale(1.09);
+	-webkit-transform: scale(1.09);
+}
+.has-js .label_thumb.thumb0.r_on    {
+	background-position: 0px -121px;
+	opacity: 1;
+	background-size: 54px 252px;
+}
+.has-js .label_thumb.thumb0.r_on:hover    {
+	background-position: 0px -121px;
+	opacity: .9;
+}
+
+
+.has-js .label_thumb.thumb1    {
+	background-position: 0px -58px;
+	opacity: .9;
+	position: relative;
+	top: 10px;
+	background-size: 54px 252px;
+	transition: transform .2s ease;
+	-webkit-transition: -webkit-transform .2s ease;
+}
+.has-js .label_thumb.thumb1:hover    {
+	background-position: 0px -184px;
+	opacity: .9;
+	transform: scale(1.09);
+	-webkit-transform: scale(1.09);
+}
+.has-js .label_thumb.thumb1.r_on    {
+	background-position: 0px -184px;
+	opacity: 1;
+	background-size: 54px 252px;
+}
+.has-js .label_thumb.thumb1.r_on:hover    {
+	background-position: 0px -184px;
+	opacity: .9;
+}
+
+
+
+
+
+
+/* FOR STAR RATING */
+
+.has-js .label_stars    {
+	background: url(../images/stars.png) no-repeat;
+	background-position: 3px 0px;
+}
+
+@media 
+(-webkit-min-device-pixel-ratio: 1.3), 
+(min-resolution: 124.8dpi){ 
+.has-js .label_stars    {
+	background: url(../images/stars_2.png) no-repeat;
+	background-position: 3px 0px;
+	background-size: 35px 128px;
+}
+}
+
+.has-js .label_stars.click    {
+	background-position: 3px -32px;
+}
+.has-js .label_stars.hover    {
+	background-position: 3px -64px;
+}
+.has-js .label_stars.hover.click    {
+	background-position: 3px -96px;
+}
+.has-js .label_stars.hover_empty    {
+	background-position: 3px 0px;
+}
+
+
+/* FOR SMILEY RATING */
+
+
+.has-js .label_smiley    {
+	background: url(../images/smileys.png) no-repeat;
+	background-position: 0px -37px;
+}
+
+@media 
+(-webkit-min-device-pixel-ratio: 1.3), 
+(min-resolution: 124.8dpi){ 
+
+.has-js .label_smiley    {
+	background: url(../images/smileys_2.png) no-repeat;
+	background-position: 0px -37px;
+	background-size: 200px 70px;
+}
+
+}
+
+
+
+.has-js .label_smiley.smiley0    {
+	background-position: 0px -37px;
+}
+
+.has-js .label_smiley.smiley0:hover    {
+	background-position: 0px -1px;
+}
+.has-js .label_smiley.smiley0.click      {
+	background-position: 0px -1px;
+}
+.has-js .label_smiley.smiley0.c_on:hover      {
+	background-position: 0px -37px;
+}
+
+
+
+.has-js .label_smiley.smiley1    {
+	background-position: -40px -37px;
+}
+.has-js .label_smiley.smiley1:hover    {
+	background-position: -40px -1px;
+}
+.has-js .label_smiley.smiley1.click      {
+	background-position: -40px -1px;
+}
+.has-js .label_smiley.smiley1.c_on:hover      {
+	background-position: -40px -37px;
+}
+
+
+.has-js .label_smiley.smiley2    {
+	background-position: -80px -37px;
+}
+.has-js .label_smiley.smiley2:hover    {
+	background-position: -80px -1px;
+}
+.has-js .label_smiley.smiley2.click      {
+	background-position: -80px -1px;
+}
+.has-js .label_smiley.smiley2.c_on:hover      {
+	background-position: -80px -37px;
+}
+
+
+
+.has-js .label_smiley.smiley3    {
+	background-position: -120px -37px;
+}
+.has-js .label_smiley.smiley3:hover    {
+	background-position: -120px -1px;
+}
+.has-js .label_smiley.smiley3.click      {
+	background-position: -120px -1px;
+}
+.has-js .label_smiley.smiley3.c_on:hover      {
+	background-position: -120px -37px;
+}
+
+.has-js .label_smiley.smiley4    {
+	background-position: -160px -37px;
+}
+.has-js .label_smiley.smiley4:hover    {
+	background-position: -160px -1px;
+}
+.has-js .label_smiley.smiley4.click      {
+	background-position: -160px -1px;
+}
+.has-js .label_smiley.smiley4.c_on:hover      {
+	background-position: -160px -37px;
+}
+
+
+
+.has-js .label_smiley input,
+.has-js .label_stars input  { position: absolute; left: -9999px;}

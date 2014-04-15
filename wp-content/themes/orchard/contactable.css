@@ -1,0 +1,134 @@
+#contactable-inner {
+	background-image:url(images/register-now.gif);
+	color:#FFFFFF;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	line-height: 18px;
+	background-color:#333333;
+	cursor:pointer;
+	height:180px;
+	right:0;
+	margin-left:-5px; 
+	*margin-left:-5px; 
+	overflow:hidden;
+	position:fixed;
+	*position:absolute;
+	text-indent:-100000px;
+	top:20%;
+	*margin-top:10px;
+	width:44px;
+	z-index:100000;
+	box-shadow: 7px 3px 7px #000;
+}
+
+#contactable-contactForm {
+	background-color:#333333;
+	border:2px solid #EAEAEB;
+	color:#FFFFFF;
+	height:auto;
+	right:0;
+	margin-right:-400px;
+	*margin-right:-434px;
+	margin-top:-160px;
+	overflow:hidden;
+	padding-left:30px;
+	position:fixed;
+	top:200px;
+	width:360px;
+	*width:394px;
+	z-index:99;
+}
+
+form#contactable-contactForm input,
+form#contactable-contactForm textarea,
+form#contactable-contactForm select {
+	background:#FFFFFF none repeat scroll 0 0;
+	outline-style:none;
+	outline-width:medium;
+	width:325px;
+	padding:5px;
+	border:1px solid #dfdfdf;
+	font-size:1em;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin-bottom:10px;
+}
+
+form#contactable-contactForm select {
+	width:335px;
+}
+
+form#contactable-contactForm p {
+	width:325px;
+	font-size:0.9em;
+}
+
+form#contactable-contactForm .contactable-disclaimer {
+	*margin-left:20px;
+}
+
+#contactable-contactForm .contactable-green {
+	color:	#76b347;
+}
+
+#contactable-overlay {
+	background-color:#666666;
+	display:none;
+	height:100%;
+	left:0;
+	margin:0;
+	padding:0;
+	position:absolute;
+	top:0;
+	width:100%;
+	z-index:0;
+} 
+.contactable-invalid { background-color: #EDBE9C; }
+#contactable-name.contactable-invalid { background-color: #EDBE9C; } 
+#contactable-email.contactable-invalid { background-color: #EDBE9C; }
+#contactable-message.contactable-invalid { background-color: #EDBE9C; }
+
+form#contactable-contactForm label{
+	*margin-left:20px;
+	line-height:150%;
+}
+
+form#contactable-contactForm #contactable-loading {
+	background: url(images/ajax-loader.gif) no-repeat;
+	width:66px;
+	height:66px;
+	margin: 80px auto;
+	display:none;
+}
+
+#contactable-callback {
+	color: #FFF;
+	width:325px;
+	margin:100px auto;	
+	display:none;
+	text-align: center;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 12px
+}
+
+.contactable-holder {
+	margin:0 auto;
+	*margin-left:20px;
+	padding-top:20px;	
+}	
+
+/* Submit button */
+form#contactable-contactForm .contactable-submit {
+background-color:transparent;color:#FFF;letter-spacing: 1px;border-top:none;border-left:none;border-right:none;border-bottom:2px solid #fff; text-align: right;font-weight: bold;padding:1px;width: auto;margin-left: 75%}
+
+form#contactable-contactForm .contactable-submit:hover {
+}
+
+button.contactable-cupid-green:active {
+ }
+    
+#thank-message{width:30px;margin-top: 7%;border: none;background-color: #fff;height: 2px;margin-left: 45%}
+#thank-top{font-weight: bold;font-size: 16px;line-height: 60px;}
+#register-title{margin:0;padding: 0;font-weight: bold;text-transform: uppercase;font-size: 14px}
+.contactable-holder p{margin: 0}
+.contactable-holder {margin-top: 7%;margin-bottom: 10%}
